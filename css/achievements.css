@@ -1,0 +1,52 @@
+/*for the TABLES*/
+
+body {
+    background-color: navajowhite;
+    height: 100vh;
+    background-size: initial;
+    background-position: center;
+    backface-visibility: inherit;
+    background-origin: padding-box;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+}
+
+.table {
+    table-layout: fixed;
+    align-items: center;
+    text-align: center;
+    ruby-align: center;
+    table-layout: center;
+    text-align: center;
+    align-items: center;
+}
+
+.acheive-table {
+    border-radius: 1cm;
+    table-layout: center;
+}
+
+.heads {
+    background: grey;
+    border: indianred;
+}
+
+.tableheading {
+    text-align: center;
+}
+
+tr {
+    background: white;
+    border: 3px solid green;
+}
+
+td {
+    border: 2px solid green;
+    padding: 10px;
+    font-family: 'Acme';
+}
+
+td {
+    border-collapse: collapse;
+}

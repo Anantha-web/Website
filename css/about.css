@@ -1,0 +1,40 @@
+body {
+    background-color: navajowhite;
+    height: 100vh;
+    background-size: initial;
+    background-position: center;
+    backface-visibility: inherit;
+    background-origin: padding-box;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+}
+
+.box {
+    float: left;
+    width: 30%;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    float: center;
+    align-items: center;
+    border-image: round;
+    border-radius: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.header {
+    text-align: center;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.text {
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}

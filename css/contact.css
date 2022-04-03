@@ -1,0 +1,29 @@
+body {
+    background-color: navajowhite;
+    height: 100vh;
+    background-size: initial;
+    background-position: center;
+    backface-visibility: inherit;
+    background-origin: padding-box;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+}
+
+.center {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.logo {
+    align-content: center;
+    width: 3%;
+    display: inline;
+    margin: 2%;
+}
+
+.logo:hover {
+    width: 2.5%;
+    color: darkcyan;
+}

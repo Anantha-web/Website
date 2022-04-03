@@ -1,0 +1,87 @@
+body {
+    background-color: navajowhite;
+    height: 100vh;
+    background-size: initial;
+    background-position: center;
+    backface-visibility: inherit;
+    background-origin: padding-box;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+}
+
+.navmenu {
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.navmenu {
+    display: inline-block;
+}
+
+.navmenu a {
+    color: mediumaquamarine;
+    text-decoration: underline;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    position: left;
+}
+
+.navmenu a:hover {
+    border: 1px solid grey;
+    background-color: pink;
+    color: black;
+}
+
+.navmenu {
+    float: left;
+    position: fixed;
+    z-index: 500;
+    top: 0;
+}
+
+.top p {
+    font-size: 40px;
+    text-align: center;
+    margin: 2%;
+    text-align: center;
+    animation: text 3s 1;
+    margin-bottom: 5%;
+    font-family: 'Patua One', cursive;
+}
+
+.contact-links {
+    padding: 0;
+}
+
+.logo {
+    align-content: center;
+    width: 3%;
+    display: inline;
+    margin: 2%;
+}
+
+.logo:hover {
+    width: 2.5%;
+    color: darkcyan;
+}
+
+.footer {
+    color: black;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: -100;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+}
+
+.foot {
+    text-align: center;
+    font-size: initial;
+    font-style: italic;
+    text-align-last: center;
+}

@@ -1,0 +1,69 @@
+#formElement select {
+    appearance: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+#formElement {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2.5%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding-bottom: 3.5%;
+    font-size: 1.1em;
+}
+
+#formElement input,
+select {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+#formElement select {
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+#formElement input {
+    padding: 10px 0;
+}
+
+#formElement #personName {
+    margin-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#formElement #skill {
+    margin-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#formElement #submitButton {
+    margin-top: 20px;
+    background: local;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+#feedBackTable {
+    border: black;
+    border-color: black;
+    border-left: black;
+    border-top: black;
+    border-right: black;
+    border-left: black;
+    border-top-color: black;
+    border-left-color: black;
+}
